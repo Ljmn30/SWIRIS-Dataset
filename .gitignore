@@ -1,0 +1,84 @@
+
+---
+
+# 📄 `.gitignore` (macOS + Python + ML)
+
+```gitignore
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+pip-wheel-metadata/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# ML / Deep Learning
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.tflite
+
+# =========================
+# Datasets (avoid uploading large files)
+# =========================
+dataset/images/
+dataset/annotations/
+data/
+sam2_format/
+synthetic_data/**/images/
+
+# =========================
+# Logs & outputs
+# =========================
+logs/
+runs/
+outputs/
+results/tmp/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Compressed files
+# =========================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# =========================
+# System & cache
+# =========================
+.cache/
