@@ -92,7 +92,7 @@ For Mask R-CNN training, **Detectron2** was used.
 git clone https://github.com/facebookresearch/detectron2
 cd detectron2
 pip install -e .
-
+```
 
 ### 3. SAM2 (Segment Anything Model v2)
 
