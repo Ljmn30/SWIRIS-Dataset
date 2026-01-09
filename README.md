@@ -29,7 +29,7 @@ The SWIRIS dataset was annotated and managed using the **Roboflow platform**.
 All images, annotations, and dataset versions are hosted there.
 
 **Dataset URL (Roboflow):**  
-Baseline dataset [SWIRIS-Dataset](https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/swiris-dataset/8)
+Baseline dataset: [SWIRIS-Dataset](https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/swiris-dataset/8)
 
 Available export formats:
 - YOLOv8 Segmentation
