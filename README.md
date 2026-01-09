@@ -29,7 +29,7 @@ The SWIRIS dataset was annotated and managed using the **Roboflow platform**.
 All images, annotations, and dataset versions are hosted there.
 
 **Dataset URL (Roboflow):**  
-**[Baseline dataset(https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/swiris-dataset/8)]**
+** Baseline dataset [Baseline dataset](https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/swiris-dataset/8)**
 
 Available export formats:
 - YOLOv8 Segmentation
@@ -64,7 +64,7 @@ Synthetic data is used **only in the training set** to ensure fair evaluation.
 
 ## Model Training and Reproducibility
 
-### 1 YOLO-based Models (Ultralytics)
+### 1. YOLO-based Models (Ultralytics)
 
 Models:
 - YOLOv8n-seg
@@ -82,7 +82,7 @@ Typical training configuration:
 
 ---
 
-### 2 Mask R-CNN (Detectron2)
+### 2. Mask R-CNN (Detectron2)
 
 For Mask R-CNN training, **Detectron2** was used.
 
@@ -94,7 +94,7 @@ cd detectron2
 pip install -e .
 
 
-### 3 SAM2 (Segment Anything Model v2)
+### 3. SAM2 (Segment Anything Model v2)
 
 For prompt-free instance segmentation, we fine-tuned SAM2 (Segment Anything Model v2) on the SWIRIS dataset using a multiclass training strategy. SAM2 is a prompt-based segmentation model; however, in this work it is adapted to operate without user prompts through supervised fine-tuning.
 
