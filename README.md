@@ -54,7 +54,9 @@ To improve dataset robustness and generalization, synthetic images were generate
 
 Four experimental scenarios were evaluated:
 - **S1:** Real data only
-- **S2:** Real + Stable Diffusion (+25%)
+- **S2 (Real + Stable Diffusion, +25%)**  
+  Training set augmented with photorealistic samples generated using Stable Diffusion.  
+  Roboflow version: [[Real + Stable Diffusion](https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/daserdetectron2/1)]
 - **S3:** Real + ControlNet (+25%)
 - **S4:** Real + SD + CN (+50%)
 
