@@ -53,7 +53,7 @@ To improve dataset robustness and generalization, synthetic images were generate
 - **ControlNet (Canny)** for structure-preserving augmentation
 
 Four experimental scenarios were evaluated:
-- **S1:** Real data only 
+- **S1:** Real data only    
   Roboflow: [Dataset version](https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/swiris-dataset/8).
 - **S2:** Real data + Stable Diffusion (+25%)   
   Training set augmented with photorealistic samples generated using Stable Diffusion.  
