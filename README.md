@@ -53,17 +53,17 @@ To improve dataset robustness and generalization, synthetic images were generate
 - **ControlNet (Canny)** for structure-preserving augmentation
 
 Four experimental scenarios were evaluated:
-- **S1:** Real data only
+- **S1:** Real data only 
   Roboflow: [Dataset version](https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/swiris-dataset/8).
-- **S2:** Real data + Stable Diffusion (+25%) 
+- **S2:** Real data + Stable Diffusion (+25%)   
   Training set augmented with photorealistic samples generated using Stable Diffusion.  
   Roboflow: [Dataset version](https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/daserdetectron2/1).
-- **S3:** Real + ControlNet (+25%)
+- **S3:** Real + ControlNet (+25%)  
   Training set augmented with structure-preserving samples generated using ControlNet (Canny).  
-  Roboflow: [Dataset version](https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/swiris_controlnet/1).
-- **S4:** Real + Stable Diffusion + ControlNet (+50%)
+  Roboflow: [Dataset version](https://app.roboflow.com/universidad-complutense-de-madrid-oqgje/swiris_controlnet/1). 
+- **S4:** Real + Stable Diffusion + ControlNet (+50%)  
   Combined augmentation using both Stable Diffusion and ControlNet synthetic samples.  
-  Roboflow version: [Dataset version](https://drive.google.com/file/d/1-gBlRCbsXFhBdAJdJncYCSimnakpgQFH/view?usp=sharing).
+  Drive: [Dataset version](https://drive.google.com/file/d/1-gBlRCbsXFhBdAJdJncYCSimnakpgQFH/view?usp=sharing).
 
 
 Synthetic data is used **only in the training set** to ensure fair evaluation.
