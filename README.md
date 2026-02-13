@@ -78,6 +78,7 @@ Models:
 - YOLOv8n-seg
 - YOLO11n-seg
 - YOLO12n-seg
+- YOLO26n-seg
 
 Framework:
 - https://github.com/ultralytics/ultralytics
@@ -120,6 +121,18 @@ wget -O sam2/sam2_hiera_tiny.pt \
 https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_tiny.pt
 
 ```
+
+## Example of quantitative comparison between models
+
+
+| YOLOv8n-seg | YOLO11n-seg | YOLO12n-seg | YOLO26n-seg | Mask R-CNN | SAM2 |
+|-------------|-------------|-------------|-------------|------------|------|
+| ![](predict/yolov8base.jpg) | ![](predict/yolo11base.jpg) | ![](predict/yolo12base.jpg) | ![](predict/yolo26base.jpg) | ![](predict/D2base.jpg) | ![](predict/sam2base.png) |
+| ![](predict/yolov8sd.jpg)   | ![](predict/yolo11sd.jpg)   | ![](predict/yolo12sd.jpg)   | ![](predict/yolo26sd.jpg)   | ![](predict/D2sd.jpg)   | ![](predict/sam2sd.png)   |
+| ![](predict/yolov8cn.jpg)   | ![](predict/yolo11cn.jpg)   | ![](predict/yolo12cn.jpg)   | ![](predict/yolo26cn.jpg)   | ![](predict/D2cn.jpg)   | ![](predict/sam2cn.png)   |
+| ![](predict/yolov8all.jpg)  | ![](predict/yolo11all.jpg)  | ![](predict/yolo12all.jpg)  | ![](predict/yolo26all.jpg)  | ![](predict/D2all.jpg)  | ![](predict/sam2all.png)  |
+
+
 
 ## Publications
 
