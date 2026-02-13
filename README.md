@@ -133,6 +133,8 @@ https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_tiny.pt
 | ![](predict/yolov8all.jpg)  | ![](predict/yolo11all.jpg)  | ![](predict/yolo12all.jpg)  | ![](predict/yolo26all.jpg)  | ![](predict/D2all.jpg)  | ![](predict/sam2all.png)  |
 
 
+**Figure:** Row 1 corresponds to the models in scenario S1, row 2 to S2, row 3 to S3, and row 4 to S4.
+
 
 ## Publications
 
