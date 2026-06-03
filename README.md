@@ -138,8 +138,9 @@ To see more images with predictions, go to the directory [predict](https://githu
 
 ## Publications
 
-Title: "SWIRIS: Stereo Vision Dataset for Instance Segmentation in Inland Water Reservoirs".    
-Journal:   
+Title: "SWIRIS: a stereo vision dataset for instance segmentation in inland water reservoirs".    
+Journal: Journal of Real-Time Image Processing  
+DOI: https://doi.org/10.1007/s11554-026-01888-y
 
 ## Acknowledgements
 This paper has been partially funded by the EU (FEDER), the Spanish MINECO under grants PID2021-126576NB-I00 and TED2021-130123B-I00 funded by MCIN/AEI/10.13039/501100011033 and by European Union "ERDF A way of making Europe" and the NextGenerationEU/PRT. J.L.M. thanks the National Secretariat of Science, Technology and Innovation (SENACYT) of Panama for financial support during the completion of his PhD.
